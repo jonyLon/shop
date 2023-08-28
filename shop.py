@@ -286,7 +286,7 @@ while True:
       case 10:
         print(typeList)
         typeIndex = int(input("Enter product type index: "))
-        percent = int(input('Enter a percent change of a price for example (5% or -5%): '))
+        percent = int(input('Enter a percent change of a price for example (5 or -5): '))
         actualChange = 1 + percent/100
         prodCorrection(typeList[typeIndex],actualChange)
       case 11:
